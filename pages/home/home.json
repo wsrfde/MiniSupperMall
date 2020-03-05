@@ -1,0 +1,13 @@
+{
+  "usingComponents": {
+    "v-swiper":"/components/v-swiper/v-swiper",
+    "v-recommend":"./childCpns/v-recommend/v-recommend",
+    "v-popular":"./childCpns/v-popular/v-popular",
+    "v-control-bar":"/components/v-control-bar/v-control-bar",
+    "v-goods":"/components/v-goods/v-goods",
+    "v-back-top":"/components/v-back-top/v-back-top"
+  },
+  "navigationBarTitleText": "首页",
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle":"dark"
+}

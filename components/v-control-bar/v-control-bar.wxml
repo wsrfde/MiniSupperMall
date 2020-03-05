@@ -1,0 +1,10 @@
+<!--components/v-control-bar/v-control-bar.wxml-->
+<view class="control-bar">
+  <block wx:for="{{title}}" wx:key="*this">
+    <view class="control-item {{currentIndex === index ? 'active' : ''}}"
+          bind:tap="controlClick"
+          data-index="{{index}}">
+      <text>{{item}}</text>
+    </view>
+  </block>
+</view>

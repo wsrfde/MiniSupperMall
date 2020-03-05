@@ -1,0 +1,26 @@
+<wxs src="../../../../utils/dataTime.wxs"  module="dateUtil" />
+
+
+<view class='comment-info'>
+  <view class='header'>
+    <view>用户评价</view>
+    <view>更多 >></view>
+  </view>
+  <view class='user'>
+    <image src="{{commentInfo.user.avatar}}"/>
+    <text>{{commentInfo.user.uname}}</text>
+  </view>
+  <view class='comment'>
+    {{commentInfo.content}}
+  </view>
+  <view class='other-info'>
+    <view class='time'>{{dateUtil.dateFormat(commentInfo.created,'YYYY-MM-dd')}}</view>
+    <view class='style'>{{commentInfo.style}}</view>
+  </view>
+  <view class='picture'>
+    <block wx:for="{{commentInfo.images}}" 
+           wx:key="index">
+      <image src="{{item}}" mode="widthFix"/>
+    </block>
+  </view>
+</view>

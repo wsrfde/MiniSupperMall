@@ -1,0 +1,12 @@
+<!--components/v-goods-item/v-goods-item.wxml-->
+<view class="goods-item" bind:tap="jumpDetail">
+  <image class="img" src="{{ item.image || item.show.img || item.img}}" mode="widthFix"></image>
+  <view class="goods-deco">
+    <view class="item-title">{{item.title}}</view>
+    <view class="item-desc">
+      <text class="price">￥{{item.price}}</text>
+      <image class="icon" src="/assets/common/favor.png"></image>
+      <text class="cfav">{{item.cfav}}</text>
+    </view>
+  </view>
+</view>

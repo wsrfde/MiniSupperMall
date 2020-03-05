@@ -1,0 +1,14 @@
+<!--pages/detail/detail.wxml-->
+<scroll-view class="detail" scroll-y bindscroll="topHeight" scroll-top="{{scrollTop}}"
+ enable-back-to-top scroll-with-animation>
+  <v-swiper class="d-swiper" list="{{topImage}}" />
+  <v-base-info baseInfo="{{baseInfo}}" />
+  <v-shop-info shopInfo="{{shopInfo}}" />
+  <v-detail-info detailInfo="{{detailInfo}}" />
+  <v-param-info paramInfo="{{paramInfo}}" />
+  <v-comment-info commentInfo="{{commentInfo}}"/>
+  <v-goods goods="{{recommends}}"/>
+</scroll-view>
+
+<v-back-top bind:backtop="backtop" wx:if="{{isShow}}" class="detail-backtop"/>
+<v-bottom-bar bind:addcart="onAddcart"/>

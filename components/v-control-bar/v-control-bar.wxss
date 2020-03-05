@@ -1,0 +1,25 @@
+/* components/v-control-bar/v-control-bar.wxss */
+
+.control-bar {
+  display: flex;
+  margin-bottom: 30rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  background: white;
+  text-align: center;
+  font-size: 32rpx;
+  padding: 8rpx 0;
+}
+
+.control-item {
+  flex: 1;
+}
+
+.active {
+  color: #ff5777;
+}
+
+.active text {
+  padding: 10rpx;
+  border-bottom: 6rpx solid #ff5777;
+}

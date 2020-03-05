@@ -1,0 +1,7 @@
+/* components/v-swiper/v-swiper.wxss */
+swiper {
+  height: 390rpx;
+}
+swiper-item image{
+  width: 100%;
+}

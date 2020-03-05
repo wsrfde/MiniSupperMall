@@ -1,0 +1,8 @@
+<!--components/v-check-icon/v-check-icon.wxml-->
+<icon class="checked-icon" 
+      type="success" 
+      color="#ff5777" 
+      size="14"
+      style="border-color:{{isChecked ? '#ff5777': '#aaa' }}"
+      color="{{isChecked ? '#ff5777' : '#aaa' }}">
+</icon>

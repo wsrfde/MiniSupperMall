@@ -1,0 +1,39 @@
+/* components/v-goods-item/v-goods-item.wxss */
+.goods-item{
+  font-size: 32rpx;
+  margin-bottom: 100rpx;
+}
+.goods-item .img{
+  width: 100%;
+  border-radius: 10rpx;
+}
+/* 如果想要标题紧挨图片，删除goods-deco这段代码 */
+.goods-deco{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom:20rpx;
+}
+.goods-deco .item-title{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}
+.item-desc{
+  text-align: center
+}
+.item-desc .price{
+  color:#ff5777;
+  margin-right: 20rpx;
+}
+.item-desc .icon{
+  position: relative;
+  width: 28rpx;
+  height: 28rpx;
+  left: 0rpx;
+  top: 2rpx
+}
+.item-desc .cfav{
+
+}

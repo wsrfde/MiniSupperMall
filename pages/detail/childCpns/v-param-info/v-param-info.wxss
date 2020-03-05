@@ -1,0 +1,33 @@
+/* pages/detail/childCpns/v-param-info/v-param-info.wxss */
+.param-info{
+  padding-bottom: 40rpx;
+  border-bottom: 10rpx solid #eee;
+}
+.size{
+  margin-top: 30rpx;
+  margin-left: 30rpx;
+}
+.size-table{
+
+}
+.size-row{
+  display: flex;
+  border-bottom: 1px solid #ddd;
+}
+.size-item{
+  flex: 1;
+  padding: 20rpx;
+}
+
+.info{
+  margin-left: 30rpx;
+}
+.key{
+  flex: 2;
+  padding: 20rpx;
+}
+.value{
+  flex: 5;
+  padding: 20rpx;
+  color: #ff5777;
+}

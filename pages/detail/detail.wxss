@@ -1,0 +1,11 @@
+/* pages/detail/detail.wxss */
+.detail{
+  height: calc(100% - 120rpx)
+}
+.d-swiper swiper{
+  height: 600rpx;
+}
+
+.detail-backtop>view{
+  margin-bottom: 80rpx;
+}

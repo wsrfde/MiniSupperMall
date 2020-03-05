@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "v-goods":"/components/v-goods/v-goods",
+    "v-control-bar": "/components/v-control-bar/v-control-bar"
+  }
+}

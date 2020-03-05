@@ -1,0 +1,16 @@
+<v-swiper list="{{banners}}"/>
+
+<v-recommend recommends="{{recommends}}" bind:imgload="imgload"/> 
+
+<v-popular />
+
+<v-control-bar title="{{title}}" 
+               id="control-bar" 
+               class="{{isFixed?'fixed':''}}"  
+               bind:tabclick="tabclick"
+              />
+<v-control-bar title="{{title}}" wx:if="{{isFixed}}"/>
+
+<v-goods goods="{{goods[currentType].list}}"/>
+
+<v-back-top wx:if="{{isShow}}"/>

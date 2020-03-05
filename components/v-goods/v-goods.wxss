@@ -1,0 +1,11 @@
+/* components/v-goods/v-goods.wxss */
+.goods{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* margin-top:-60rpx; */
+}
+.item{
+  width: 48%;
+  position: relative;
+}
